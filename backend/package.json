@@ -1,0 +1,38 @@
+{
+	"name": "nasa-small-bodies-api",
+	"version": "1.0.0",
+	"description": "NASA Small Bodies TypeScript Node.js API",
+	"main": "dist/app.js",
+	"scripts": {
+		"start": "'./node_modules/.bin/ts-node' ./src/app.ts",
+		"build": "tsc",
+		"dev": "ts-node src/app.ts",
+		"test": "jest"
+	},
+	"keywords": [
+		"typescript",
+		"node.js",
+		"api"
+	],
+	"author": "Gianluca Lo Vecchio",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^1.4.0",
+		"axios-cache-interceptor": "^1.2.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.1.4",
+		"express": "^4.18.2",
+		"reflect-metadata": "^0.1.13",
+		"routing-controllers": "^0.10.4",
+		"typedi": "^0.10.0"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.13",
+		"@types/express": "^4.17.17",
+		"@types/jest": "^29.5.2",
+		"jest": "^29.5.0",
+		"ts-jest": "^29.1.0",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.9.5"
+	}
+}

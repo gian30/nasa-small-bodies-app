@@ -1,0 +1,38 @@
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Built output
+/dist
+/build
+
+# Development files
+/coverage
+/.cache
+/.eslintcache
+/.parcel-cache
+/.yarn/cache
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor files
+.vscode/
+.idea/
+
+# Package manager files
+.yarn/
+.yarnrc
+.yarn.lock
+
+# Build tools
+/.eslintrc.js
+/tsconfig.json
+/tsconfig.*.json
+/jest.config.js
+/babel.config.js
